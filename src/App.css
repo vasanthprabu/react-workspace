@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+  
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: lightblue;
+  color: white;
+}
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.MuiTableCell-sizeSmall {
+  padding: 6px 6px 6px 16px;
+}
+.MuiFormControl-marginNormal {
+  margin-top: 8px !important;
+  margin-bottom: 8px;
+}
+.MuiTableRow-root:hover { 
+ /* background: #ddcd74 !important */
+ background: rgba(33, 150, 243, 0.5)!important 
+}
+
+
+/* tr:hover {background-color:#eed35a;} */
